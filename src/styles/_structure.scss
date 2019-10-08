@@ -1,0 +1,29 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+  margin: 0;
+  background-color: $primary-colour;
+  font-family: $primary-font;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Set the intro card to device height
+html, body, #app, #intro {
+  height: 100%;
+}
+
+.row {
+  border: 1px red solid;
+  margin: 0;
+}
+
+.col { 
+  padding: 0;
+  border: 1px blue solid;
+}
