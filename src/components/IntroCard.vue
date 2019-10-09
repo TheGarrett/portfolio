@@ -1,7 +1,7 @@
 <template>
-  <section id="intro" class="intro-card">
+  <header id="intro" class="intro-card">
     Protocol Portfolio
-  </section>
+  </header>
 </template>
 
 <script>

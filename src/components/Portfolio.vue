@@ -1,6 +1,16 @@
 <template>
   <section id="portfolio" class="portfolio">
-    <div class="row justify-content-between">
+    <div class="row">
+      <div class="col">
+        Design Vault
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Description
+      </div>
+    </div>
+    <div class="row">
       <div class="col">
         1 of 4 columns
       </div>
@@ -14,7 +24,7 @@
         4 of 4 columns
       </div>
     </div>
-    <div class="row justify-content-between">
+    <div class="row">
       <div class="col">
         1 of 4 columns
       </div>

@@ -1,6 +1,26 @@
 <template>
   <section id="about" class="about-me">
-    About Me
+    <div class="row">
+      <div class="col">
+        About Me
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Description
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Icon 1
+      </div>
+      <div class="col">
+        Icon 2
+      </div>
+      <div class="col">
+        Icon 3
+      </div>
+    </div>
   </section>
 </template>
 
