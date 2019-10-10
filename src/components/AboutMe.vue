@@ -2,7 +2,7 @@
   <section id="about" class="about-me dark">
     <div class="row">
       <div class="col">
-        About Me
+        <h1>About Me</h1>
       </div>
     </div>
     <div class="row">

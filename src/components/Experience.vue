@@ -2,7 +2,7 @@
   <section id="experience" class="experience dark">
     <div class="row">
       <div class="col">
-        Experience
+        <h1>Experience</h1>
       </div>
     </div>
     <div class="row">

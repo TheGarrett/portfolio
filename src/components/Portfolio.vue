@@ -2,7 +2,7 @@
   <section id="portfolio" class="portfolio light">
     <div class="row">
       <div class="col">
-        Design Vault
+        <h1>Design Vault</h1>
       </div>
     </div>
     <div class="row">

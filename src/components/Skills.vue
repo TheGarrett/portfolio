@@ -2,7 +2,7 @@
   <section id="skills" class="skills light">
     <div class="row">
       <div class="col">
-        Skills
+        <h1>Skills</h1>
       </div>
     </div>
     <div class="row">
