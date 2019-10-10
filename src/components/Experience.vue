@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="experience">
+  <section id="experience" class="experience dark">
     <div class="row">
       <div class="col">
         Experience

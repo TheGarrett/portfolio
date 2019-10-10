@@ -4,18 +4,17 @@
     <!-- Page layout -->
     <IntroCard />
     <div>
-      <Navbar />
+      <!-- Navbar and progression bar -->
+      <div class="nav-group">
+        <Navbar />
+        <ProgressBar />
+      </div>
       <!-- Page Content -->
-      <div class="page-body">
+      <div>
         <Portfolio />
         <AboutMe />
         <Skills />
         <Experience />
-        <div class="row">
-          <div class="col">
-            Icon
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -25,6 +24,7 @@
   // Import components
   import IntroCard from './components/IntroCard.vue';
   import Navbar from './components/Navbar.vue';
+  import ProgressBar from './components/library/ProgressBar.vue';
   import Portfolio from './components/Portfolio.vue';
   import AboutMe from './components/AboutMe.vue';
   import Skills from './components/Skills.vue';
@@ -34,6 +34,7 @@
     name: 'app',
     components: {
       Navbar,
+      ProgressBar,
       IntroCard,
       Portfolio,
       AboutMe,
@@ -41,4 +42,14 @@
       Experience
     }
   }
+
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  } 
 </script>

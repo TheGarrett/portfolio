@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="portfolio">
+  <section id="portfolio" class="portfolio light">
     <div class="row">
       <div class="col">
         Design Vault
