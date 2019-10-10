@@ -57,10 +57,10 @@
   }
   .navbar {
     background-color: $secondary-colour;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    // position: -webkit-sticky;
+    // position: sticky;
+    // top: 0;
+    // z-index: 1;
 
     &-bar {
       justify-content: center;
