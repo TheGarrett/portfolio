@@ -19,9 +19,21 @@ html, body, #app, #intro {
   height: 100%;
 }
 
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
 section {
-  height: 700px;
-  padding: 110px 5% 0 5%;
+  height: auto;
+  padding: 110px 5% 50px 5%;
 
   &.dark {
     background-color: $dark;
@@ -32,14 +44,20 @@ section {
   }
 }
 
+#contact {
+  padding-bottom: 90px;
+}
+
 .row {
-  border: 1px red solid;
+  // border: 1px red solid;
   margin: 0;
 }
 
 .col { 
+  display: flex;
+  justify-content: center;
   padding: 0;
-  border: 1px blue solid;
+  // border: 1px blue solid;
 }
 
 .nav-group {
@@ -51,18 +69,26 @@ section {
 
 @media screen and (min-width: $desktop) {
   section {
-    padding: 140px 8% 0 8%;
+    padding: 140px 8% 100px 8%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
   }
 }
 
 // To get page jump working on Firefox
 @-moz-document url-prefix() {
   section {
-    padding: 45px 8% 0 8%;
+    padding: 45px 8% 50px 8%;
   }
   @media screen and (min-width: $desktop) {
     section {
-      padding: 70px 8% 0 8%;
+      padding: 70px 8% 100px 8%;
     }
   }
 }

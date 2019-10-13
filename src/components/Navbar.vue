@@ -5,7 +5,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <a id="mobile-icon" class="navbar-brand" href="#">
-      <img src="../assets/Logo.png" class="navbar-logo">
+      <img src="../assets/Logo.png" class="navbar-logo" alt="Portfolio Logo">
     </a>
     <!-- Nav bar content -->
     <div class="navbar-bar collapse navbar-collapse" id="myNavbar">
@@ -18,14 +18,14 @@
         </li>
         <li id="desktop-icon" class="nav-item">
           <a class="navbar-brand" href="#intro">
-            <img src="../assets/Logo.png" class="navbar-logo">
+            <img src="../assets/Logo.png" class="navbar-logo" alt="Portfolio Logo">
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -66,7 +66,6 @@
       width: 100%;
       display: flex;
       align-items: center;
-      
     }
     
     &-logo {
@@ -110,6 +109,10 @@
       }
       &-nav {
         justify-content: space-around;
+      }
+      &-brand {
+        margin: 0 auto;
+        padding-right: 90px;
       }
     }
       .nav {

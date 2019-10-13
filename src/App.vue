@@ -14,7 +14,7 @@
         <Portfolio />
         <AboutMe />
         <Skills />
-        <Experience />
+        <Contact />
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@
   import Portfolio from './components/Portfolio.vue';
   import AboutMe from './components/AboutMe.vue';
   import Skills from './components/Skills.vue';
-  import Experience from './components/Experience.vue';
+  import Contact from './components/Contact.vue';
 
   export default {
     name: 'app',
@@ -39,7 +39,7 @@
       Portfolio,
       AboutMe,
       Skills,
-      Experience
+      Contact
     }
   }
 
