@@ -18,7 +18,7 @@
           <div class="card-body">
             <h5 class="card-title">Bladed Brows</h5>
             <p class="card-text">Coming soon</p>
-            <a href="#" class="btn btn-primary card-button">View</a>
+            <a href="#" class="btn btn-primary default-button">View</a>
           </div>
         </div>
       </div>
@@ -49,12 +49,7 @@
       height: 200px;
       width: 200px;
       margin: 0 auto;
-    }
-    &-button {
-      width: 100%;
-      color: $dark-grey;
-      background-color: $house-colour;
-      border-color: $house-colour;
+      margin-top: 10px;
     }
   }
 

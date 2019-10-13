@@ -7,18 +7,12 @@
     </div>
     <div class="row contact-margin contact-border">
       <div class="col">
-        <h2>Work Email:</h2>
-      </div>
-      <div class="col contact-email">
-        <p>ryan.garrett@accenture.com</p>
+        <p>Feel free to contact me with any questions you may have</p>
       </div>
     </div>
     <div class="row contact-margin contact-border">
       <div class="col">
-        <h2>Personal Email:</h2>
-      </div>
-      <div class="col contact-email">
-        <p>thegarrettUK@gmail.com</p>
+        <p class="subtitle">thegarrettUK@gmail.com</p>
       </div>
     </div>
     <div class="row contact-margin">
@@ -34,12 +28,6 @@
     </div>
   </section>
 </template>
-
-<script>
-  export default {
-    
-  }
-</script>
 
 <style lang="scss" scoped>
   a:link {

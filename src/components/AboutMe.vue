@@ -30,7 +30,7 @@
     </div>
     <!-- Career title -->
     <div class="row">
-      <p class="about-me-subtitle">Career:</p>
+      <p class="subtitle">Career:</p>
     </div>
     <div class="row">
       <!-- First career icon -->
@@ -63,7 +63,7 @@
     </div>
     <!-- Hobby title -->
     <div class="row">
-      <p class="about-me-subtitle">Hobbies:</p>
+      <p class="subtitle">Hobbies:</p>
     </div>
     <div class="row">
       <!-- First hobby icon -->
@@ -97,21 +97,11 @@
   </section>
 </template>
 
-<script>
-  export default {
-    
-  }
-</script>
-
 <style lang="scss" scoped>
   .about-me {
 
     &-name-container {
       margin-top: 10px;
-    }
-    &-subtitle {
-      font-size: 1.2rem;
-      font-weight: bolder;
     }
     &-profile-img {
       height: 150px;
@@ -141,7 +131,6 @@
 
       &-description {
         text-align: center;
-        font-weight: bold;
         height: 60px;
 
         &-container {

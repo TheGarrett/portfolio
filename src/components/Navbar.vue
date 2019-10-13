@@ -32,22 +32,6 @@
   </nav>
 </template>
 
-<script>
-  // Import components
-
-  export default {
-    name: 'Navbar',
-    components: {
-      
-    },
-    data() {
-      return {
-
-      }
-    },
-  }
-</script>
-
 <style lang="scss" scoped>
   #mobile-icon {
     display: flex;
